@@ -24,7 +24,7 @@ public class DrugsMod {
 
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
-    /add
+
     public DrugsMod() {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
